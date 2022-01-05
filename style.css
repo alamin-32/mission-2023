@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 /* introduction section start */
-#introduction-box{
+.quotes-box{
     display: flex;
 }
 
@@ -35,7 +35,7 @@ h1{
     background-image: linear-gradient(tomato , orange);
     color: whitesmoke; 
     font-weight: 600;
-    padding: 3%;
+    padding: 2%;
     border-radius: 10px;
 }
 
@@ -64,5 +64,8 @@ h1{
     width: 50%;
     margin: 20px;
  
+}
+#coding-image{
+    width: 80%;
 }
 
