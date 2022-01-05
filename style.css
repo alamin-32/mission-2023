@@ -6,14 +6,14 @@
     text-decoration: none;
 }
 /* introduction section start */
-section{
+#introduction-box{
     display: flex;
 }
 
-.introduction-area{
+.half-width{
     width: 50%;
 }
-.introduction-area img{
+.half-width img{
     width: 90%;
 }
 
@@ -38,3 +38,31 @@ h1{
     padding: 3%;
     border-radius: 10px;
 }
+
+
+.dream-box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#goal-box{
+    text-align: center;
+    padding: 0 0;
+
+    
+}
+
+.half-width-area{
+    width: 40%;
+    padding:0 3%;
+    margin: 0 3%;
+    box-shadow: 5px 5px 40px black; 
+    border-radius: 10px; 
+    
+}
+.half-width-area img{
+    width: 50%;
+    margin: 20px;
+ 
+}
+
