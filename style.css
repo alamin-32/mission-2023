@@ -2,10 +2,12 @@
     font-family: 'Poppins', sans-serif;
     margin:30PX 25PX;
     padding: 0;
-   
     text-decoration: none;
 }
-/* introduction section start */
+
+
+
+/* flexibla area start */
 .flexible-box{
     display: flex;
 }
@@ -16,7 +18,11 @@
 .half-width img{
     width: 90%;
 }
+/* flexible area end */
 
+
+
+/* font area and color */
 h1{
     font-size: 50px;
     font-weight: 1200;
@@ -62,6 +68,8 @@ h1{
     box-shadow: 5px 5px 40px black; 
     border-radius: 10px;   
 }
+
+/* dream-vission-goals area */
 #half-area-color1{
     background-image: linear-gradient(rgb(243, 138, 155) ,white);
 }
@@ -77,10 +85,9 @@ h1{
     margin: 20px;
     border-radius: 10px; 
    
-}
-.quotes-box img{
-    width: 80%;
-}
+} 
+
+/* footer area */
 footer{
     text-align: center;
     background-color: rgb(119, 114, 114);
