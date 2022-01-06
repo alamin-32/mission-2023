@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 /* introduction section start */
-.quotes-box{
+.flexible-box{
     display: flex;
 }
 
