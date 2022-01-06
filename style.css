@@ -29,16 +29,18 @@ h1{
     color: rgba(12, 11, 11, 0.863);
 }
 .h1-font-orng{
-    color: darkorange;
+    color: #ff8c00;
 } 
 .h1-font-blue{
     color: rgba(8, 100, 240, 0.808);
 }
 
 #border-slice{
- border-left: 5px solid rgba(247, 5, 5, 0.692);
- border-image-slice: 1;
-}
+    border-left: 5px solid rgba(247, 5, 5, 0.692);
+    border-image-slice: 1;
+    padding-left: 20px;
+ }
+
 /* my name */
 .name{
     font-size: 35px ;
@@ -68,7 +70,7 @@ h1{
     width: 40%;
     padding:0 1px;
     margin: 0 15px;
-    box-shadow: 5px 5px 40px black; 
+    box-shadow: 5px 5px 20px rgb(158, 158, 158); 
     border-radius: 10px;   
 }
 
@@ -105,11 +107,9 @@ h1{
 }
 
 #about-box{
-    background-image: url(images/about-us-icon-34420-white.png);
-    background-repeat: no-repeat;
-    background-position:160px 160px;
-    
+ background-repeat: no-repeat;    
 }
+
 #form-box{
     display: flex;
     flex-direction: column;
@@ -120,7 +120,7 @@ h1{
     margin: 0;
     margin-bottom: 25px;
     padding: 5px;
-    border: 1px solid black;
+    border: 0 solid black;
     background-color: rgb(201, 212, 231);
     border-radius: 10px;
 }
