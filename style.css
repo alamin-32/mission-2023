@@ -31,6 +31,9 @@ h1{
 .h1-font-orng{
     color: darkorange;
 } 
+.h1-font-blue{
+    color: rgba(8, 100, 240, 0.808);
+}
 
 #border-slice{
  border-left: 5px solid rgba(247, 5, 5, 0.692);
@@ -87,10 +90,31 @@ h1{
    
 } 
 
+/* background area */ 
+
+#develop-box{
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#community-box{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:12px 0;
+}
+
+#about-box{
+    background-image: url(images/about-us-icon-34420-white.png);
+    background-repeat: no-repeat;
+    background-position:100px 160px;
+    
+}
+
 /* footer area */
 footer{
     text-align: center;
-    background-color: rgb(119, 114, 114);
+    background-color: rgb(78, 72, 72);
     color: white;
     padding: 1px;
 }
