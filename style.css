@@ -2,7 +2,7 @@
     font-family: 'Poppins', sans-serif;
     margin:30PX 25PX;
     padding: 0;
-    background-color: rgb(240, 234, 234);
+   
     text-decoration: none;
 }
 /* introduction section start */
@@ -20,7 +20,7 @@
 h1{
     font-size: 50px;
     font-weight: 1200;
-    color: rgba(49, 46, 46, 0.788);
+    color: rgba(12, 11, 11, 0.863);
 }
 .h1-font-orng{
     color: darkorange;
@@ -38,7 +38,7 @@ h1{
 /* button area */
 .button{
     background-image: linear-gradient(tomato , orange);
-    color: whitesmoke; 
+    color: rgb(255, 254, 254); 
     font-weight: 600;
     padding: 2%;
     border-radius: 10px;
@@ -60,16 +60,30 @@ h1{
     padding:0 1px;
     margin: 0 15px;
     box-shadow: 5px 5px 40px black; 
-    border-radius: 10px; 
-     background-image: linear-gradient(pink ,white);
-    
+    border-radius: 10px;   
 }
+#half-area-color1{
+    background-image: linear-gradient(rgb(243, 138, 155) ,white);
+}
+#half-area-color2{
+    background-image: linear-gradient(rgb(81, 216, 81) ,white);
+}
+#half-area-color3{
+    background-image: linear-gradient(rgb(85, 85, 197) ,white);
+}
+
 .half-width-area img{
     width: 50%;
     margin: 20px;
-    border-radius: 10px;  background-image: linear-gradient(pink , pink);
+    border-radius: 10px; 
+   
 }
 .quotes-box img{
     width: 80%;
 }
-
+footer{
+    text-align: center;
+    background-color: rgb(119, 114, 114);
+    color: white;
+    padding: 1px;
+}
