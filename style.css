@@ -25,6 +25,10 @@ h1{
 .h1-font-orng{
     color: darkorange;
 } 
+#border-slice{
+ border-left: 5px solid rgba(247, 5, 5, 0.692);
+ border-image-slice: 1;
+}
 /* my name */
 .name{
     font-size: 35px ;
@@ -47,25 +51,24 @@ h1{
 }
 #goal-box{
     text-align: center;
-    padding: 0 0;
 
-    
 }
 
 .half-width-area{
     width: 40%;
-    padding:0 3%;
-    margin: 0 3%;
+    padding:0 1px;
+    margin: 0 15px;
     box-shadow: 5px 5px 40px black; 
     border-radius: 10px; 
+     background-image: linear-gradient(pink ,white);
     
 }
 .half-width-area img{
     width: 50%;
     margin: 20px;
- 
+    border-radius: 10px;  background-image: linear-gradient(pink , pink);
 }
-.coding-image{
-    width: 80%;
+.quotes-box img{
+    width: 90%;
 }
 
